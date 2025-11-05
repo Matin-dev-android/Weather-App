@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">weather</string>
+<!--    <string name="note_text">Note: To search for a city name, be sure to enter the city name in English! &amp;-->
+<!--        Make sure the city name is correct (no spelling mistakes) &amp;-->
+<!--        If your city is not found after 5 seconds, we are sorry.&amp;-->
+<!--        These cities are loaded by www.weatherapi.com and there is nothing we can do.</string>-->
+
+    <string name="note_text">
+    Note: To search for a city name, be sure to enter the city name in English!\n \n
+    Make sure the city name is correct (no spelling mistakes)\n \n
+    If your city is not found after 5 seconds, we are sorry.\n \n
+    These cities are loaded by www.weatherapi.com and there  is nothing we can do.
+</string>
+
+</resources>

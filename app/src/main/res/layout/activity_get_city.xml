@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="16dp"
+    tools:context=".Activities.GetCityActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCity"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ed_bg"
+        android:completionThreshold="1"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:hint="Search Your City :"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backImgS" />
+
+    <ImageView
+        android:id="@+id/backImgS"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Apply Selected City"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:ellipsize="none"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:text="@string/note_text"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/button" />
+</androidx.constraintlayout.widget.ConstraintLayout>
